@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/workouts/static/css/main.fd6583cb.css",
+    "main.js": "/workouts/static/js/main.f0a3fe13.js",
+    "static/media/mobility.jpg": "/workouts/static/media/mobility.492936e99f4c2f3348f6.jpg",
+    "static/media/bootstrap-icons.woff?": "/workouts/static/media/bootstrap-icons.7ff3ca6fa798de3f8ac2.woff",
+    "static/media/bootstrap-icons.woff2?": "/workouts/static/media/bootstrap-icons.f2539a501be3a673de05.woff2",
+    "static/media/drillss.jpg": "/workouts/static/media/drillss.daf5f6d541f38368bbb7.jpg",
+    "static/media/strength.jpg": "/workouts/static/media/strength.f09690a7baa7363a75ad.jpg",
+    "index.html": "/workouts/index.html",
+    "main.fd6583cb.css.map": "/workouts/static/css/main.fd6583cb.css.map",
+    "main.f0a3fe13.js.map": "/workouts/static/js/main.f0a3fe13.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fd6583cb.css",
+    "static/js/main.f0a3fe13.js"
+  ]
+}
