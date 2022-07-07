@@ -1,38 +1,163 @@
-.App {
-  text-align: center;
+*{
+  margin: 0;
+  padding: 0;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.navbar {
+  background-color: rgb(255, 255, 255);
+  padding: 0;
+  width: auto;
+  height: 2cm;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items:flex-start;
+  box-shadow: 0 0 10px rgba(39, 39, 39, 0.308);
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.menu ul {
+  display: flex;
+  padding-bottom: 1px;
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.menu ul li {
+  list-style: none;
+  margin: 10px 10px;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+}
+
+.menu ul li a {
+  padding: 5px 30px;
+  font-size: 0.37cm;
+  color: black;
+  text-decoration: none;
+  font-weight: 500;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.menu ul li a:hover {
+  color: red;
+  transition: 0.6s ease;
+
+}
+
+.logo {
+  background-color: black;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-left: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top:-30px;
+}
+
+.logo p {
+  font-size: 0.5cm;
   color: white;
+  margin: 2px 4px;
+
 }
 
-.App-link {
-  color: #61dafb;
+.login {
+  margin-right: 20px;
+  transition: 0.5s ease;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.login p {
+  font-size: 0.4cm;
+  font-weight: 500;
+  margin-top: 10px;
+}
+
+.login:hover {
+  color: red
+}
+
+.containers {
+  width: auto;
+  height: 14cm;
+  margin: 1.5cm;
+}
+
+.containers h1 {
+  font-weight: 500;
+}
+
+.slider {
+
+  margin: 1cm 0cm;
+  height: 11cm;
+  width: auto;
+  display: flex;
+  flex-direction: row;
+
+
+}
+
+
+
+
+.abc:hover {
+  width: 15cm;
+}
+
+.abc:hover>i {
+  display: block;
+}
+
+.strength {
+  background: linear-gradient(rgba(0, 0, 0, 0.327), rgba(0, 0, 0, 0.3)), url(../public/strength.jpg);
+  border-radius: 15px 0px 0px 15px;
+}
+
+.mobility {
+  background: linear-gradient(rgba(0, 0, 0, 0.327), rgba(0, 0, 0, 0.3)), url(../public/mobility.jpg);
+}
+
+.drills {
+  background: linear-gradient(rgba(0, 0, 0, 0.327), rgba(0, 0, 0, 0.3)), url(../public/drillss.jpg);
+  border-radius: 0px 15px 15px 0px;
+}
+.abc{
+  width: 11cm;
+  height: 100%;
+  background-size:cover;
+  background-repeat:no-repeat;
+  transition: 0.4s ease-out;
+}
+
+.abc h5 {
+  color: white;
+  padding: 20px 30px;
+  text-transform: uppercase;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+.abc i {
+  position: relative;
+  float: right;
+  top: -45px;
+  right: 30px;
+  display: none;
+  color: white;
+  font-size: 0.5cm;
+  transition: 0.4s ease;
+}
+
+.abc i:hover {
+  color: rgb(7, 7, 7);
+  transform: scale(120%);
 }
